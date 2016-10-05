@@ -1,0 +1,1 @@
+# plg_content_db8imageresize
