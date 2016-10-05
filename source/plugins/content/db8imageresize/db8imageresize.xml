@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.6" type="plugin" group="content" method="upgrade">
+	<name>PLG_CONTENT_DB8IMAGERESIZE</name>
+	<author>Peter Martin</author>
+	<creationDate>September 2016</creationDate>
+	<copyright>Copyright (C) 2016 Peter Martin. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>joomla@db8.nl</authorEmail>
+	<authorUrl>www.db8.nl</authorUrl>
+	<version>0.0.1</version>
+	<description>PLG_CONTENT_DB8IMAGERESIZE_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="db8imageresize">db8imageresize.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+				<field type="spacer" name="thumbnail" label="Thumbnail" />
+				<field
+						name="tn_width"
+						type="text"
+						default="150"
+						description="PLG_CONTENT_DB8IMAGERESIZE_TNW_DESC"
+						label="PLG_CONTENT_DB8IMAGERESIZE_TNW_LABEL"
+				/>
+				<field
+						name="tn_height"
+						type="text"
+						default="150"
+						description="PLG_CONTENT_DB8IMAGERESIZE_TNH_DESC"
+						label="PLG_CONTENT_DB8IMAGERESIZE_TNH_LABEL"
+				/>
+
+				<field type="spacer" name="xs" label="Extra Small" />
+				<field
+						name="xs_width"
+						type="text"
+						default="300"
+						description="PLG_CONTENT_DB8IMAGERESIZE_XSW_DESC"
+						label="PLG_CONTENT_DB8IMAGERESIZE_XSW_LABEL"
+				/>
+				<field
+						name="xs_height"
+						type="text"
+						default="200"
+						description="PLG_CONTENT_DB8IMAGERESIZE_XSH_DESC"
+						label="PLG_CONTENT_DB8IMAGERESIZE_XSH_LABEL"
+				/>
+
+				<field type="spacer" name="sm" label="Small" />
+				<field
+						name="sm_width"
+						type="text"
+						default="768"
+						description="PLG_CONTENT_DB8IMAGERESIZE_SMW_DESC"
+						label="PLG_CONTENT_DB8IMAGERESIZE_SMW_LABEL"
+				/>
+				<field
+						name="sm_height"
+						type="text"
+						default="512"
+						description="PLG_CONTENT_DB8IMAGERESIZE_SMH_DESC"
+						label="PLG_CONTENT_DB8IMAGERESIZE_SMH_LABEL"
+				/>
+
+				<field type="spacer" name="md" label="Medium" />
+				<field
+						name="md_width"
+						type="text"
+						default="1024"
+						description="PLG_CONTENT_DB8IMAGERESIZE_MDW_DESC"
+						label="PLG_CONTENT_DB8IMAGERESIZE_MDW_LABEL"
+				/>
+				<field
+						name="md_height"
+						type="text"
+						default="683"
+						description="PLG_CONTENT_DB8IMAGERESIZE_MDH_DESC"
+						label="PLG_CONTENT_DB8IMAGERESIZE_MDH_LABEL"
+				/>
+
+				<field type="spacer" name="lg" label="Large" />
+				<field
+						name="lg_width"
+						type="text"
+						default="1200"
+						description="PLG_CONTENT_DB8IMAGERESIZE_LGW_DESC"
+						label="PLG_CONTENT_DB8IMAGERESIZE_LGW_LABEL"
+				/>
+				<field
+						name="lg_height"
+						type="text"
+						default="800"
+						description="PLG_CONTENT_DB8IMAGERESIZE_LGH_DESC"
+						label="PLG_CONTENT_DB8IMAGERESIZE_LGH_LABEL"
+				/>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
