@@ -8,8 +8,8 @@ You can define multiple image sizes so that with Responsive Design you can use d
 * Back-end > Content > Articles > New/Edit Article > tab "Images and Links" > Intro Image / Full Article Image
 
 
-**Note:** If you have **JCE editor as default editor**, its own **File Browser plugin** will replace the "Images and Links" upload. 
+**Note:** If you have **JCE editor 2.5.x as default editor**, its own **File Browser plugin** will replace the "Images and Links" upload. 
 
 
 **Credits:**
-* **EventViva** for their **php-image-resize* library (License MIT): https://packagist.org/packages/eventviva/php-image-resize
+* **EventViva** for their **php-image-resize** library (License MIT): https://packagist.org/packages/eventviva/php-image-resize
