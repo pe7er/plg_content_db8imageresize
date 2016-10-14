@@ -13,3 +13,4 @@ You can define multiple image sizes so that with Responsive Design you can use d
 
 **Credits:**
 * **EventViva** for their **php-image-resize** library (License MIT): https://packagist.org/packages/eventviva/php-image-resize
+* **Marc-Antoine Thevenet** for the **French (fr-FR)** translation
