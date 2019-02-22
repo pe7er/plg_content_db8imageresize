@@ -11,6 +11,8 @@
 	<description>PLG_CONTENT_DB8IMAGERESIZE_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="db8imageresize">db8imageresize.php</filename>
+		<folder>language</folder>
+		<folder>vendor</folder>
 	</files>
 	<config>
 		<fields name="params">
